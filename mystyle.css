@@ -1,0 +1,72 @@
+body {
+    background-color: white;    
+}
+
+.paired {
+    float:left !important;
+    max-width:47% !important;
+}
+
+smaller {
+    font-style: normal;
+    font-size: 50%;
+    text-transform: none;
+}
+
+.overtext {
+    background-color: gray;
+    color: white;
+}
+
+.Center {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    background-color: green;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -100px;
+}
+
+.mybox {
+    background-color: gray;
+    border: 3px solid;
+    font-size: 20px;
+    width: 50%;
+    padding: 30px;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-child {
+    flex: 1;
+    border: hidden;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}  
+
+.flex-child:first-child {
+    margin-right: 0px;
+} 
+
+.headers{
+    background:rgba(255,255,255,0.9);
+    width:1000px;
+    padding:40px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: none;
+}
